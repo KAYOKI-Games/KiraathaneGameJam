@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: facccbdd29ea6ee47af53c2923a7f35b
+guid: 24d2270eed6f3a84a8892f525d59bea8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Roads (1)_0
+      name: Player Punch 64x64-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 256
-        height: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d900ec0a6fc2f247a0536e192ed2d75
-      internalID: 488713483
+      spriteID: 8879d8b5e8877eb4bb180d62e022e6a8
+      internalID: -907899105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Roads (1)_1
+      name: Player Punch 64x64-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73153dc1100a75c44b1aac414b4af194
+      internalID: 1478814538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Punch 64x64-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed2948c054f5794bb0b3914bc814c91
+      internalID: -2142699889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Punch 64x64-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10eef429d726fe14dbdc017a10213754
+      internalID: 369946792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Punch 64x64-Sheet_4
       rect:
         serializedVersion: 2
         x: 256
-        y: 256
-        width: 256
-        height: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 428e494945ea8b345a22d2c338d5739a
-      internalID: -290825246
+      spriteID: a91ae794806411a41a62260d6e96a3ed
+      internalID: 1953216369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Roads (1)_3
+      name: Player Punch 64x64-Sheet_5
       rect:
         serializedVersion: 2
-        x: 15
-        y: 137
-        width: 485
-        height: 43
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +224,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9e9b69d2ac29794eb33230efbee7db6
-      internalID: 1504318045
+      spriteID: e0d9c6e1acf0ddd4f8b9e16cdd6f6cc2
+      internalID: 1495562938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Punch 64x64-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47319c789f2250640b872dc7d6e317ed
+      internalID: 1899451224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Punch 64x64-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b55cd5067030e147806aa9c16121fc0
+      internalID: -506331262
       vertices: []
       indices: 
       edges: []
@@ -178,10 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Roads (1)_0: 488713483
-      Roads (1)_1: -290825246
-      Roads (1)_2: 422700370
-      Roads (1)_3: 1504318045
+      Player Punch 64x64-Sheet_0: -907899105
+      Player Punch 64x64-Sheet_1: 1478814538
+      Player Punch 64x64-Sheet_2: -2142699889
+      Player Punch 64x64-Sheet_3: 369946792
+      Player Punch 64x64-Sheet_4: 1953216369
+      Player Punch 64x64-Sheet_5: 1495562938
+      Player Punch 64x64-Sheet_6: 1899451224
+      Player Punch 64x64-Sheet_7: -506331262
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

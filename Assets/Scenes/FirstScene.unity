@@ -2901,7 +2901,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.447, y: -2.878}
+  m_AnchoredPosition: {x: -7.435, y: -2.878}
   m_SizeDelta: {x: 1.5367, y: 1.3904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1460866202
@@ -3036,7 +3036,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 8
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &1511621101
 PrefabInstance:
