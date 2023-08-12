@@ -263,7 +263,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 20
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -379,9 +379,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 675734285}
-  speed: 10
-  jumpSpeed: 300
-  jumpFrequency: 0
+  speed: 5
+  jumpSpeed: 200
+  jumpFrequency: 0.1
   nextJumpTime: 0
   isGrounded: 0
   groundCheckPosition: {fileID: 66684050}
