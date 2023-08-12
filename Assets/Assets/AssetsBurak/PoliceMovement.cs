@@ -5,7 +5,7 @@ using Pathfinding;
 
 public class PoliceMovement : MonoBehaviour
 {
-    public AIPath aiPath;
+    // public AIPath aiPath;
     private Animator animator;
     private bool isRunning;
     private Vector3 previousPosition;
@@ -53,14 +53,14 @@ public class PoliceMovement : MonoBehaviour
     {
         policeIsRunning();
 
-        if (aiPath.desiredVelocity.x >= 0.01f)
+       /* if (aiPath.desiredVelocity.x >= 0.01f)
         {
             transform.localScale = new Vector3(7f, transform.localScale.y, transform.localScale.z);
         }
         else if (aiPath.desiredVelocity.x <= -0.01f)
         {
             transform.localScale = new Vector3(-7f, transform.localScale.y, transform.localScale.z);
-        }
+        }*/
     }
 
 
