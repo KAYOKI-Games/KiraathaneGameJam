@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3050b2f8e72a2847b77e527950dc013
+guid: c1ead44fe3d9a8742a04602d459e8227
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character Idle Rig 48x48-Sheet_0
+      name: PlayerRun_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 8
-        width: 18
-        height: 30
+        x: 4
+        y: 0
+        width: 38
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d54c0d0f845da9498848afe91223458
-      internalID: -1797011509
+      spriteID: 07736dcf8a50f2c4897976d1451c98e3
+      internalID: -790066060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character Idle Rig 48x48-Sheet_1
+      name: PlayerRun_1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 8
-        width: 19
-        height: 28
+        x: 53
+        y: 0
+        width: 38
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c014dd88b587c114ea3992097211bce5
-      internalID: -391065834
+      spriteID: cc68a39c7f735ca4199098500d672199
+      internalID: -489938058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character Idle Rig 48x48-Sheet_2
+      name: PlayerRun_3
       rect:
         serializedVersion: 2
-        x: 110
-        y: 8
-        width: 19
-        height: 27
+        x: 100
+        y: 0
+        width: 38
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a39a44a977a3ecb448cb5dae3a7cdd71
-      internalID: 1308934178
+      spriteID: b5b001fd163b31f41aee514205417e78
+      internalID: -187053877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character Idle Rig 48x48-Sheet_3
+      name: PlayerRun_4
       rect:
         serializedVersion: 2
-        x: 158
-        y: 8
-        width: 19
-        height: 27
+        x: 152
+        y: 0
+        width: 38.4
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7686bd2b2263824c9ab5e6e2a4f14d5
-      internalID: 1849466329
+      spriteID: f7b0c13f960ddb84a9b829768a31fb1f
+      internalID: 1386669568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character Idle Rig 48x48-Sheet_4
+      name: PlayerRun_5
       rect:
         serializedVersion: 2
-        x: 206
-        y: 8
-        width: 19
-        height: 27
+        x: 197
+        y: 0
+        width: 38
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb98e55e692012e44a8355a35b3bbefe
-      internalID: 1912585908
+      spriteID: c38959d27a4c59b45be798c7fecdff04
+      internalID: 1061337661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character Idle Rig 48x48-Sheet_5
+      name: PlayerRun_7
       rect:
         serializedVersion: 2
-        x: 254
-        y: 8
-        width: 19
-        height: 28
+        x: 245
+        y: 0
+        width: 38
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 601899723fb1a654da5a78ab9a03ddf7
-      internalID: -1970948467
+      spriteID: fe48b82ad3c716e4cbb7809985a50a36
+      internalID: 1400354346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character Idle Rig 48x48-Sheet_6
+      name: PlayerRun_8
       rect:
         serializedVersion: 2
-        x: 302
-        y: 8
-        width: 18
-        height: 30
+        x: 294
+        y: 0
+        width: 38
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad01fa9d22f33f84b89d60948ca8f32e
-      internalID: -2001805833
+      spriteID: 8209088e8a6802d45a51b28b12846792
+      internalID: -1760331936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character Idle Rig 48x48-Sheet_7
+      name: PlayerRun_9
       rect:
         serializedVersion: 2
-        x: 350
-        y: 8
-        width: 18
-        height: 31
+        x: 342
+        y: 0
+        width: 38.4
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,50 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d698304494d35a9498f4c0ec7dd0d625
-      internalID: -2126359198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character Idle Rig 48x48-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 398
-        y: 8
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f5a66111f6e25e4bb5ccf219487177f
-      internalID: -1363215555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character Idle Rig 48x48-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 446
-        y: 8
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f20fa0a02af2c7941ad994b96f2ea090
-      internalID: 1208791946
+      spriteID: b1b1f111f3d80d7408b609c9748d6494
+      internalID: -990986713
       vertices: []
       indices: 
       edges: []
@@ -325,16 +283,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Character Idle Rig 48x48-Sheet_0: -1797011509
-      Character Idle Rig 48x48-Sheet_1: -391065834
-      Character Idle Rig 48x48-Sheet_2: 1308934178
-      Character Idle Rig 48x48-Sheet_3: 1849466329
-      Character Idle Rig 48x48-Sheet_4: 1912585908
-      Character Idle Rig 48x48-Sheet_5: -1970948467
-      Character Idle Rig 48x48-Sheet_6: -2001805833
-      Character Idle Rig 48x48-Sheet_7: -2126359198
-      Character Idle Rig 48x48-Sheet_8: -1363215555
-      Character Idle Rig 48x48-Sheet_9: 1208791946
+      PlayerRun_0: -790066060
+      PlayerRun_1: -489938058
+      PlayerRun_2: 130872780
+      PlayerRun_3: -187053877
+      PlayerRun_4: 1386669568
+      PlayerRun_5: 1061337661
+      PlayerRun_6: -1627536860
+      PlayerRun_7: 1400354346
+      PlayerRun_8: -1760331936
+      PlayerRun_9: -990986713
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
