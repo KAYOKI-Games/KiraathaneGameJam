@@ -102,4 +102,10 @@ public class MenuManager : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(2);
     }
+    
+    public void Load3rdScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(3);
+    }
 }
