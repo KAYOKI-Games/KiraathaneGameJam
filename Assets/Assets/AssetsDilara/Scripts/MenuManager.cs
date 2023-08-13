@@ -9,6 +9,9 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private AudioClip backgroundMusic;
     [SerializeField] private GameObject SoundOnButton;
     [SerializeField] private GameObject SoundOffButton;
+    [SerializeField] private GameObject MenuScreen;
+    [SerializeField] private GameObject TutorialScreen;
+    
     private AudioSource source;
     // Start is called before the first frame update
     void Start()
@@ -41,7 +44,18 @@ public class MenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("FirstScene");
+        SceneManager.LoadScene(1);
+    }
+
+    public void Tutorial()
+    {
+        TutorialScreen.SetActive(true);
+        MenuScreen.SetActive(false);
     }
     
+    public void MenuScene()
+    {
+        TutorialScreen.SetActive(false);
+        MenuScreen.SetActive(true);
+    }
 }
