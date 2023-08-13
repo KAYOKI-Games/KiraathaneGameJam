@@ -2926,8 +2926,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: " I GOTTA ROB \n  THE HOUSE \nBEFORE CAUGHT"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8524b571528d6624f87ef35d0159024b, type: 2}
-  m_sharedMaterial: {fileID: 5061806989069748813, guid: 8524b571528d6624f87ef35d0159024b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c925c67192ff5f245810b58020edd86f, type: 2}
+  m_sharedMaterial: {fileID: 9040504641287943902, guid: c925c67192ff5f245810b58020edd86f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3016,7 +3016,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5061806989069748813, guid: 8524b571528d6624f87ef35d0159024b, type: 2}
+  - {fileID: 9040504641287943902, guid: c925c67192ff5f245810b58020edd86f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3724,7 +3724,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: PRESS 'E'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8524b571528d6624f87ef35d0159024b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c925c67192ff5f245810b58020edd86f, type: 2}
   m_sharedMaterial: {fileID: 5061806989069748813, guid: 8524b571528d6624f87ef35d0159024b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3791,7 +3791,7 @@ MonoBehaviour:
   _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_renderer: {fileID: 1983403199}
   m_maskType: 0
 --- !u!23 &1983403199
