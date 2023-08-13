@@ -21,6 +21,7 @@ public class BurakPlayerControl : MonoBehaviour
     private bool isDead = false;
     public float throwSpeed = 350f;
     private bool throwIt = false;
+    public GameObject gameOverObject;
     private void Start()
     {
         playerRB = player.GetComponent<Rigidbody2D>();
@@ -76,8 +77,21 @@ public class BurakPlayerControl : MonoBehaviour
                 anim.ResetTrigger("playerDeath");
             }
 
+            Invoke("ActivateGameOver", 4f);
+
             InvokeRepeating("stopMove", 0.1f, 0.7f);
+
             
+            
+
+        }
+    }
+
+    private void ActivateGameOver()
+    {
+        if (gameOverObject != null)
+        {
+            gameOverObject.SetActive(true);
         }
     }
 
