@@ -11,6 +11,10 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private GameObject SoundOffButton;
     [SerializeField] private GameObject MenuScreen;
     [SerializeField] private GameObject TutorialScreen;
+    [SerializeField] private GameObject FirstSceen;
+    [SerializeField] private GameObject ChooseScreen;
+    [SerializeField] private GameObject Stop;
+    [SerializeField] private GameObject Play;
     
     private AudioSource source;
     // Start is called before the first frame update
@@ -57,5 +61,45 @@ public class MenuManager : MonoBehaviour
     {
         TutorialScreen.SetActive(false);
         MenuScreen.SetActive(true);
+    }
+    
+    public void ComeMenuBack()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
+    }
+
+    public void ChooseScene()
+    {
+        FirstSceen.SetActive(false);
+        ChooseScreen.SetActive(true);
+        Time.timeScale = 0;
+    }
+    public void ContinueGame()
+    {
+        FirstSceen.SetActive(true);
+        ChooseScreen.SetActive(false);
+        Stop.SetActive(true);
+        Play.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void StopGame()
+    {
+        Stop.SetActive(false);
+        Play.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void LoadFirstScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(1);
+    }
+    
+    public void LoadEvScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(2);
     }
 }
