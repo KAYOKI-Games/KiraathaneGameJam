@@ -8,6 +8,8 @@ TagManager:
   - EnemyTag
   - HurtItemTag
   - Damage
+  - GameOver
+  - GameWin
   layers:
   - Default
   - TransparentFX
