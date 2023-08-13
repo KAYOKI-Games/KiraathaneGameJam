@@ -21,7 +21,7 @@ public class ChangeScene : MonoBehaviour
         {
             doorAnim.SetBool("openDoor",true);
             text.SetActive(true);
-            if (Input.GetKey(KeyCode.E)) SceneManager.LoadScene("MenuScene");;
+            if (Input.GetKey(KeyCode.E)) SceneManager.LoadScene(2);
         }
     }
 
