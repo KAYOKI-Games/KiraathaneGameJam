@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/AssetsBurak/Scenes/3rdScene.unity
     guid: 695162bac010e9b419665715cbdf074e
+  - enabled: 1
+    path: Assets/Assets/AssetsBurak/Scenes/4rdScene.unity
+    guid: 17b770da4129efb42982ec1d526b2275
   m_configObjects: {}

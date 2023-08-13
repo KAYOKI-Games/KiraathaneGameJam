@@ -1,11 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using static Unity.VisualScripting.Member;
 
 public class BurakPlayerControl : MonoBehaviour
 {
+    [SerializeField] private GameObject _gameWin;
     [SerializeField]
     private GameObject player;
     public float speed = 12f; //Controls velocity multiplier
@@ -49,6 +52,11 @@ public class BurakPlayerControl : MonoBehaviour
                 throwIt = true;
             }
 
+        }
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            anim.SetTrigger("Roll");
         }
     }
     private void OnCollisionStay2D(Collision2D collision)
@@ -142,4 +150,18 @@ public class BurakPlayerControl : MonoBehaviour
         chatBalloon.SetActive(false);
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene(4);
+        }
+
+        if (other.gameObject.CompareTag("GameWin"))
+        {
+            Time.timeScale = 0;
+            _gameWin.SetActive(true);
+        }
+    }
+    
 }
