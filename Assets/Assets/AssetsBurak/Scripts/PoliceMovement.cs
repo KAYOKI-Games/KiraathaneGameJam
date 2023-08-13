@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
+using System;
 
 public class PoliceMovement : MonoBehaviour
 {
@@ -9,9 +10,11 @@ public class PoliceMovement : MonoBehaviour
     private Animator animator;
     private bool isRunning;
     private Vector3 previousPosition;
+    private Rigidbody2D rb;
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         previousPosition = transform.position;
     }
@@ -30,24 +33,40 @@ public class PoliceMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("HurtItemTag"))
         {
-            policeHurt();
+            policeHurt(collision.gameObject);
         }
     }
 
     private void policePunch()
     {
+        GameObject playerObject = GameObject.FindGameObjectWithTag("PlayerTag");
         animator.SetTrigger("isPunching");
 
+        if (playerObject != null)
+        {
+            BurakPlayerControl playerScript = playerObject.GetComponent<BurakPlayerControl>();
+
+            if (playerScript != null)
+            {
+                playerScript.Die();
+            }
+        }
 
     }
 
-    private void policeHurt()
+    private void policeHurt(GameObject newObject)
     {
+        Invoke("stopMove", 15f);
         animator.SetTrigger("isHurt");
-
+        newObject.SetActive(false);
 
     }
 
+
+    private void stopMove()
+    {
+        rb.velocity = new Vector2(0f, 0f);
+    }
 
     private void FixedUpdate()
     {

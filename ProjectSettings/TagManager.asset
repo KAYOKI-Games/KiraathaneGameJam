@@ -7,17 +7,17 @@ TagManager:
   - PlayerTag
   - EnemyTag
   - HurtItemTag
+  - Damage
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
   - Road
-  - ground
   - Water
   - UI
-  - 
-  - 
-  - 
+  - UI
+  - Items
+  - Player
   - 
   - 
   - 
