@@ -3,12 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlayerTag
+  - EnemyTag
+  - HurtItemTag
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
   - Road
+  - ground
   - Water
   - UI
   - 
@@ -38,6 +42,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background1
+    uniqueID: 1022082937
+    locked: 0
+  - name: background2
+    uniqueID: 4150213611
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
