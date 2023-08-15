@@ -91,25 +91,9 @@ public class MenuManager : MonoBehaviour
         Time.timeScale = 0;
     }
 
-    public void LoadFirstScene()
+    public void Restart()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(1);
-    }
-    
-    public void LoadEvScene()
-    {
-        Time.timeScale = 1;
-        SceneManager.LoadScene(2);
-    }
-    
-    public void Load3rdScene()
-    {
-        Time.timeScale = 1;
-        SceneManager.LoadScene(3);
-    }public void Load4thScene()
-    {
-        Time.timeScale = 1;
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
